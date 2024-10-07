@@ -375,7 +375,7 @@ namespace movement
 				stall_anim = true;
 			}
 #else
-			if (should_sprint_stall)
+			if (should_sprint_stall || should_still_stall)
 			{
 				stall_anim = true;
 			}
